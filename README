@@ -13,8 +13,8 @@ with [pip](https://pip.pypa.io/). Python 3.5+ is required.
 
 When working from trunk it can be helpful to use `virtualenv`:
 
-    $ virtualenv --python=python3 amc && source amc/bin/activate
-    $ pip install git+https://github.com/maas/python-libmaas.git
+    $ virtualenv --python=python3 libmaas && source libmaas/bin/activate
+    $ pip install git+https://github.com/dandruczyk/python-libmaas.git
     $ maas --help
 
 Releases are periodically made to [PyPI](https://pypi.python.org/) but,
